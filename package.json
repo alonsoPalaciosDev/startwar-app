@@ -1,0 +1,50 @@
+{
+  "name": "starwars-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "antd": "^4.19.2",
+    "axios": "^0.26.1",
+    "navi": "^0.14.0",
+    "navi-scripts": "0.14.0",
+    "react": "^17.0.2",
+    "react-avatar": "^4.0.0",
+    "react-dom": "^17.0.2",
+    "react-navi": "^0.14.4",
+    "react-scripts": "5.0.0",
+    "react-use": "^17.3.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1",
+    "unsplash-js": "^7.0.15",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && navi-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "serve": "navi-scripts serve"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
